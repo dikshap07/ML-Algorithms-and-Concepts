@@ -38,7 +38,7 @@ x = ['a','b','c','d','e','e','a','b','d','d','e','e','a','b','d']
 y = [1  ,2   ,3  ,4  ,4  ,3  ,2  ,4  ,3  ,2  ,1  ,1  ,2 , 3  ,4]
 
 
-# print(list(np.unique(x)))
+print(list(np.unique(x)))
 
 
 x_ = mean_encoding(x,y)
