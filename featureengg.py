@@ -23,7 +23,7 @@ def mean_encoding(feature_vector,label_data):
 
         cat_means[category] = sum([label_data[i] if feature_vector[i] == category else 0 for i in range(len(label_data))])/len(label_data)
 
-    print(cat_means)
+    # print(cat_means)
     for i in range(len(feature_vector)):
 
         if feature_vector[i] in cat_means:
